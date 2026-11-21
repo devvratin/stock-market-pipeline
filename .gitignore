@@ -1,0 +1,13 @@
+# Environments & secrets
+.venv/
+.env
+.token.json
+
+# Local data lake folders
+data/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
