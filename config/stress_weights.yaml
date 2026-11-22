@@ -1,0 +1,9 @@
+rolling_window_days: 252
+min_periods: 60
+
+weights:
+  realized_vol: 0.25
+  parkinson_vol: 0.20
+  garman_klass_vol: 0.25
+  volume_spike: 0.15
+  spread_proxy: 0.15

@@ -5,6 +5,7 @@ description = "Nifty 50 Market Stress Monitor data pipeline"
 requires-python = ">=3.11"
 dependencies = [
     "duckdb>=1.1.0",
+    "matplotlib>=3.11.2",
     "pandas>=2.2.0",
     "pyarrow>=17.0.0",
     "python-dotenv>=1.0.0",
