@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Nifty 50 Market Stress Monitor data pipeline"
 requires-python = ">=3.11"
 dependencies = [
+    "azure-storage-blob>=12.31.1",
     "duckdb>=1.1.0",
     "matplotlib>=3.11.2",
     "pandas>=2.2.0",
