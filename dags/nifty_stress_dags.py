@@ -8,7 +8,7 @@ from airflow.operators.bash import BashOperator
 DEFAULT_ARGS = {
     "owner": "data-engineering",
     "retries": 2,
-    "retry_delay": timedelta(minutes=5),
+    "retry_delay": timedelta(minutes=30),
 }
 
 with DAG(
